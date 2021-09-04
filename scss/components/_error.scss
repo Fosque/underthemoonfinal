@@ -1,0 +1,56 @@
+.error {
+
+    width: auto;
+    height: 800px;
+    margin-top: 70px;
+    position: relative;
+    left: 35%;
+
+    img {
+        width: 550px;
+    }
+
+
+}
+
+.bodyError {
+    background-color: #68638c;
+}
+
+@media only screen and (max-width:1526px) {
+    .error {
+        position: relative;
+        left: 30%;
+
+    }
+
+
+}
+
+
+@media only screen and (max-width:992px) {
+
+    .error {
+        position: relative;
+        left: 21%;
+        height: 760px;
+
+        img {
+            width: 520px;
+        }
+    }
+
+}
+
+@media only screen and (max-width:526px) {
+
+    .error {
+        position: relative;
+        left: 1%;
+        height: 640px;
+
+        img {
+            width: 420px;
+        }
+    }
+}

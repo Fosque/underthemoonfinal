@@ -1,0 +1,37 @@
+.preguntasFrecuentes {
+
+    div {
+        margin-top: 30px;
+        margin-left: 10%;
+        margin-right: 10%;
+
+
+        h2 {
+            font-family: 'Inter', sans-serif;
+            text-align: center;
+            margin: 0;
+            color: #352f5d;
+
+        }
+
+        div {
+            font-family: 'Nunito', sans-serif;
+            font-size: 17px;
+            margin: 0;
+        }
+
+
+    }
+}
+
+.faq {
+    margin-top: 35px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    color: #000;
+
+    a {
+        color: #352f5d;
+    }
+}

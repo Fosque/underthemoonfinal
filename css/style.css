@@ -1,7 +1,8 @@
 header nav {
   height: 80px; }
   header nav div {
-    background-color: black; }
+    background-color: black;
+    overflow: hidden; }
     header nav div a img {
       width: 70px; }
     header nav div ul li {
@@ -223,6 +224,8 @@ p {
     left: 40.3%; } }
 
 @media only screen and (max-width: 526px) {
+  header nav {
+    width: 80%; }
   .fondo {
     background-image: url(../imagenes/fondoThin.jpg);
     height: 560px; }

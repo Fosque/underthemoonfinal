@@ -1,9 +1,11 @@
 header {
     nav {
-        height: 80px;
+
+        height: 80px;        
 
         div {
             background-color: black;
+            overflow: hidden;
 
             a {
                 img {
@@ -19,6 +21,7 @@ header {
         }
     }
 }
+
 
 
 .fondo {
@@ -327,6 +330,12 @@ p {
 
 @media only screen and (max-width:526px) {
 
+    header{
+        nav{
+            width: 80%;
+        }
+    }
+    
     .fondo {
         background-image: url(../imagenes/fondoThin.jpg);
         height: 560px;
